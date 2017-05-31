@@ -3,13 +3,16 @@ html {
   font-size: 18px;
 }
 
+span {
+  font-family: Helvetica;
+  color: #ffffff;
+}
 
 /* Header stying */
 header {
   display: flex;
   align-items: center;
   background-color: #000;
-  color: white;
   width: 100%;
 }
 
@@ -22,5 +25,61 @@ header span {
   text-transform: uppercase;
   margin: 0.66rem 0.5rem;
   font-size: 1rem;
-  font-family: Helvetica;
+}
+
+/* Begin main styling */
+
+/* Banner */
+.banner {
+  background-image: url("../img/moto.jpeg");
+  height: 25rem;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner-text {
+  padding-top: 9rem;
+}
+
+.banner span {
+  display: block;
+  background-color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 20rem;
+  height: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.banner :first-child {
+  padding-top: 2rem;
+  font-size: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.banner :last-child {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Menu */
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff
+}
+
+/* Store items */
+#store-items {
+  display: flex;
 }
