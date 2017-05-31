@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  width: 960px;
   height: auto;
 }
 
@@ -16,4 +15,12 @@ header {
   font-size: 1rem;
   color: white;
   width: 100%;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 960px) {
+  .container {
+    width: 960px;
+  }
 }
