@@ -82,4 +82,20 @@ nav a {
 /* Store items */
 #store-items {
   display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: block;
+  border: 4px solid black;
+}
+
+.item img {
+  height: 9rem;
+  width: 9rem;
+}
+
+.item span {
+  display: block;
+  background-color: #000000;
 }
