@@ -1,0 +1,12 @@
+/* Universal styling */
+html {
+  font-size: 18px;
+}
+
+/* Header stying */
+header {
+  display: inline;
+  background-color: #000;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
