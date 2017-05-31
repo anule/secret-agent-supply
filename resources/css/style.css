@@ -1,11 +1,10 @@
 /* Universal styling */
-html {
-  font-size: 18px;
+* {
+  border: 1px solid grey;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
+html {
+  font-size: 18px;
 }
 /* Header stying */
 header {
@@ -25,17 +24,4 @@ header img {
 
 header span {
   margin: 0.66rem 0 0.66rem 0.5rem;
-}
-
-
-/* Media Queries */
-@media only screen and (min-width: 960px) {
-  .container {
-    width: 100%;
-    margin: auto;
-  }
-
-  header, main, footer {
-    width: 960px;
-  }
 }
