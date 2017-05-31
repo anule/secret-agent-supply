@@ -3,10 +3,17 @@ html {
   font-size: 18px;
 }
 
+body {
+  width: 960px;
+  height: auto;
+}
+
 /* Header stying */
 header {
-  display: inline;
+  display: inline-block;
   background-color: #000;
   font-family: Helvetica;
   font-size: 1rem;
+  color: white;
+  width: 100%;
 }
