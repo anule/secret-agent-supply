@@ -8,10 +8,18 @@ span {
   color: #ffffff;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 960px;
+}
 /* Header stying */
 header {
   display: flex;
-  align-items: center;
+  justify-content: flex-end;
   background-color: #000;
   width: 100%;
 }
@@ -139,4 +147,9 @@ footer {
   height: 5rem;
   background-color: #000000;
   text-align: left;
+}
+
+/* media queries */
+@media only screen and (max-width: 1024px) {
+
 }
