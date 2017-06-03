@@ -7,7 +7,7 @@ html {
   font-size: 18px;
 }
 
-header, .banner, .nav, #store-items, #contact {
+header, .banner, .nav, #store-items, #contact, footer {
   display: flex;
   justify-content: center;
 }
@@ -19,6 +19,7 @@ header {
 
 #header {
   color: #ffffff;
+  width: 960px;
 }
 
 /* Banner */
@@ -28,8 +29,35 @@ header {
   background-size: cover;
 }
 
+#banner-text {
+  width: 960px;
+}
 /* Navigation */
 .nav {
   background-color: firebrick;
   padding: 0.75rem 0;
+}
+
+nav {
+  width: 960px;
+}
+
+/* Store Items */
+#store-items-list {
+  width: 960px;
+}
+
+/* Contact Information */
+#contact-and-location {
+  width: 960px;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+}
+
+#copyright {
+  color: #ffffff;
+  width: 960px;
 }
