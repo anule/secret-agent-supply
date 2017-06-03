@@ -76,7 +76,14 @@ header {
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
   width: 960px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /* Store Items */
