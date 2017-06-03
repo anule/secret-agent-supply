@@ -1,1 +1,35 @@
+/* Universal styling */
+div, img, span, body, a {
+  border: 1px solid black;
+}
 
+html {
+  font-size: 18px;
+}
+
+header, .banner, .nav, #store-items, #contact {
+  display: flex;
+  justify-content: center;
+}
+
+/* Header */
+header {
+  background-color: #000000;
+}
+
+#header {
+  color: #ffffff;
+}
+
+/* Banner */
+.banner {
+  background-image: url("../img/moto.jpeg");
+  height: 25rem;
+  background-size: cover;
+}
+
+/* Navigation */
+.nav {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
