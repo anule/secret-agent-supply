@@ -46,6 +46,28 @@ header {
 
 #banner-text {
   width: 960px;
+  margin-top: 9rem;
+}
+
+#banner-text span {
+  display: block;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 20rem;
+  background-color: #000000;
+  padding-left: 3rem;
+}
+
+#banner-text :first-child {
+  padding-top: 2rem;
+  padding-bottom: 0.50rem;
+  font-size: 1rem;
+}
+
+#banner-text :last-child {
+  padding-bottom: 2rem;
+  font-size: 2rem;
 }
 /* Navigation */
 .nav {
