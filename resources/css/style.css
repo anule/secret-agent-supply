@@ -118,7 +118,23 @@ nav a {
 
 /* Contact Information */
 #contact-and-location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 960px;
+  margin-bottom: 4rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.info {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1rem 2rem;
 }
 
 /* Footer */
