@@ -1,8 +1,4 @@
 /* Universal styling */
-div, img, span, body, a {
-  border: 1px solid black;
-}
-
 html {
   font-size: 18px;
   font-family: Helvetica;
@@ -143,6 +139,10 @@ footer {
 }
 
 #copyright {
+  display: flex;
+  align-items: center;
   color: #ffffff;
   width: 960px;
+  text-align: left;
+  height: 5rem;
 }
