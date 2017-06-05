@@ -146,3 +146,11 @@ footer {
   text-align: left;
   height: 5rem;
 }
+
+/* Media queries */
+@media only screen and (max-width : 1024px) {
+  header, .banner, .nav, #store-items, #contact, footer {
+    width: 100%
+  }
+}
+  
