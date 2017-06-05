@@ -78,7 +78,7 @@ nav {
   width: 960px;
 }
 
-nav span {
+nav a, .menu {
   color: #ffffff;
   text-decoration: none;
 }
