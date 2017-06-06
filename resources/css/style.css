@@ -152,6 +152,7 @@ footer {
   height: 5rem;
 }
 
+<<<<<<< HEAD
 /* Media Queries */
 @media only screen and (max-width : 1024px) {
   #header, #banner-text, nav, #store-items-list, #contact-and-location, #copyright {
