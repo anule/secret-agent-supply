@@ -146,3 +146,10 @@ footer {
   text-align: left;
   height: 5rem;
 }
+
+/* Media Queries */
+@media only screen and (max-width : 1024px) {
+  #header, #banner-text, nav, #store-items-list, #contact-and-location, #copyright {
+    width: 100%;
+  }
+}
