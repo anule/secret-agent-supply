@@ -152,10 +152,24 @@ footer {
   height: 5rem;
 }
 
-<<<<<<< HEAD
 /* Media Queries */
 @media only screen and (max-width : 1024px) {
   #header, #banner-text, nav, #store-items-list, #contact-and-location, #copyright {
     width: 100%;
+  }
+
+  /* Navigation */
+  nav {
+    justify-content: center;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    text-align: center;
+    padding: 0.75rem 0;
   }
 }
