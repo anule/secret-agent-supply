@@ -172,4 +172,18 @@ footer {
     text-align: center;
     padding: 0.75rem 0;
   }
+
+  /* Store Items */
+  #store-items-list {
+    justify-content: space-between;
+  }
+
+  .item {
+    width: 47%;
+    height: auto;
+  }
+
+  #watch {
+    display: none;
+  }
 }
